@@ -146,8 +146,6 @@ public class TestJunit {
 		} catch (AssertionError e) {
 			
 		}
-
-		
 	}
 	
 	@Test
@@ -158,4 +156,24 @@ public class TestJunit {
 			e.printStackTrace();
 		}
 	}
+	
+	/** 2.3 **/
+	@Test
+	public void removeMiddleElement() {
+		try {
+			System.out.println("Removing node5");
+			ctci.deleteMiddleNode(node5);
+			assertEquals(6, node4.next.data);
+			
+			System.out.println("Removing node1");
+			ctci.deleteMiddleNode(node1);
+			assertEquals(2, node1.data);
+
+		} catch (AssertionError e) {
+			System.out.println(e.getLocalizedMessage());
+			fail();
+		}
+		
+	}
+	
 }
