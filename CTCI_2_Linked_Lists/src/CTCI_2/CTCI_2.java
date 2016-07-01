@@ -102,6 +102,9 @@ public class CTCI_2 {
 	 * Write code to partition a linked list around a value x, such that all nodes less
 	 * than x come before all nodes greater than or equal to x
 	 */
+	public Node partition(int x, Node head) {
+		return null;
+	}
 
 	/** 2.5
 	 * You have two numbers represented by a linked list, where each node contains a
@@ -117,6 +120,9 @@ public class CTCI_2 {
 	 * Input: (6>1>7) + (2>9>5). That is, 617 + 295.
 	 * Output: 9>1>2. That is, 912.
 	 */
+	public Node sum(Node a, Node b) {
+		return null;
+	}
 
 	/** 2.6
 	 * Given a circular linked list, implement an algorithm which returns the node
@@ -128,10 +134,18 @@ public class CTCI_2 {
 	 * Input: A>B>C>D>E>C[the same C as earlier]
 	 * Output: C
 	 */
+	public Node findLoopStart(Node head) {
+		return null;
+	}
 
 	/** 2.7
 	 * Implement a function to check if a linked list is a palindrome.
 	 */
+	public boolean isPalindrome(Node head) {
+		return false;
+	}
+	
+	/** Main Function **/
 	public static void main(String[] args) {
 
 	}
